@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, TextField, Typography, Container, Paper } from "@mui/material";
 import "./ForgotPassword.css";
 import { ToastContainer } from "react-toastify";
-import showToastr from "../../SERVICES/toaster-service";
+import showToastr from "../../SERVICES/toastr-service";
 
 const ForgotPassword = () => {
   const [email, setEmail] = useState("");

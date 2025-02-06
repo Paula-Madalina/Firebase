@@ -1,4 +1,4 @@
-import showToastr from "../SERVICES/toaster-service";
+import showToastr from "../SERVICES/toastr-service";
 
 const EMAIL_REGEX = new RegExp(/\S+@\S+\.\S+/);
 const NAMES_REGEX = new RegExp(/^[^\d\s]+(?:\s[^\d\s]+)+$/);

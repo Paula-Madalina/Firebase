@@ -11,7 +11,7 @@ import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import GoogleIcon from "../../assets/GOOGLE-ICON.svg";
 import { useNavigate, Link } from "react-router-dom";
-import showToastr from "../../SERVICES/toaster-service";
+import showToastr from "../../SERVICES/toastr-service";
 import { ToastContainer } from "react-toastify";
 import { validationRules } from "../../VALIDATIONS/validation";
 import { useAuth } from "../../CONTEXT/authContext";

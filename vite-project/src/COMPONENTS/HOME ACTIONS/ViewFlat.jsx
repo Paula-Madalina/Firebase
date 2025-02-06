@@ -8,7 +8,7 @@ import "../HOME/Home.css";
 import Header from "../HEADER/Header";
 import EditFlat from "./EditFlat";
 import "./ViewFlat.css";
-import showToastr from "../../SERVICES/toaster-service";
+import showToastr from "../../SERVICES/toastr-service";
 import { ToastContainer } from "react-toastify";
 import KeyboardReturnIcon from "@mui/icons-material/KeyboardReturn";
 import { useNavigate } from "react-router-dom";

@@ -13,7 +13,7 @@ import GoogleIcon from "../../assets/GOOGLE-ICON.svg";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import { validationRules } from "../../VALIDATIONS/validation";
-import showToastr from "../../SERVICES/toaster-service";
+import showToastr from "../../SERVICES/toastr-service";
 import { ToastContainer } from "react-toastify";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../../CONTEXT/authContext";

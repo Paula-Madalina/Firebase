@@ -12,7 +12,7 @@ import {
   FormControlLabel,
 } from "@mui/material";
 import { ToastContainer } from "react-toastify";
-import showToastr from "../../SERVICES/toaster-service";
+import showToastr from "../../SERVICES/toastr-service";
 import { useAuth } from "../../CONTEXT/authContext";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../../firebase"; 

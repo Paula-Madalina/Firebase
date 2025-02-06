@@ -14,7 +14,7 @@ import {
 } from "@mui/material";
 import Header from "../HEADER/Header";
 import "./Inbox.css";
-import showToastr from "../../SERVICES/toaster-service";
+import showToastr from "../../SERVICES/toastr-service";
 import { ToastContainer } from "react-toastify";
 import KeyboardReturnIcon from "@mui/icons-material/KeyboardReturn";
 import { useNavigate } from "react-router-dom";

@@ -191,7 +191,7 @@
   }
   
   .login__button:hover {
-    background-color: pink;
+    background-color: rgb(53, 42, 136);
   }
   
   .forgot__password {
